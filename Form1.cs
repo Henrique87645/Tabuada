@@ -51,7 +51,7 @@ namespace Tabuada
                 }
                 else
                 {
-                    MessageBox.Show("Número informado invalido");
+                    MessageBox.Show("Número final invalido. Insira um número de 1 a 99.");
                     return false;
                 }
             }
@@ -63,13 +63,13 @@ namespace Tabuada
                 }
                 else
                 {
-                    MessageBox.Show("Número informado invalido");
+                    MessageBox.Show("Número inícial invalido. Insira um número de 1 a 99.");
                     return false;
                 }
             }
             else
             {
-                MessageBox.Show("Número informado invalido");
+                MessageBox.Show("Digitos invalidos. Digite dois números de 1 a 99");
                 return false;
             }
         }
@@ -98,19 +98,19 @@ namespace Tabuada
                     }
                     else
                     {
-                        MessageBox.Show("Final deve ser maior que o Inicial");
+                        MessageBox.Show("O digito Final deve ser maior que o Inicial");
                         return false;
                     }
                 }
                 else
                 {
-                    MessageBox.Show("Os números devem ser maior que 0 e menos que 100");
+                    MessageBox.Show("Os números devem ser maiores que 0 e menores que 100");
                     return false;
                 }
             }
             else
             {
-                MessageBox.Show("Os numeros devem ser maior que 0 e menor que 100");
+                MessageBox.Show("Os numeros devem ser maiores que 0 e menores que 100");
                 return false;
             }
         }

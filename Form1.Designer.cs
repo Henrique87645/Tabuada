@@ -41,15 +41,15 @@
             // txtnumInicial
             // 
             this.txtnumInicial.Location = new System.Drawing.Point(29, 65);
-            this.txtnumInicial.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtnumInicial.Margin = new System.Windows.Forms.Padding(4);
             this.txtnumInicial.Name = "txtnumInicial";
             this.txtnumInicial.Size = new System.Drawing.Size(132, 22);
             this.txtnumInicial.TabIndex = 0;
             // 
             // txtnumFinal
             // 
-            this.txtnumFinal.Location = new System.Drawing.Point(191, 65);
-            this.txtnumFinal.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtnumFinal.Location = new System.Drawing.Point(185, 65);
+            this.txtnumFinal.Margin = new System.Windows.Forms.Padding(4);
             this.txtnumFinal.Name = "txtnumFinal";
             this.txtnumFinal.Size = new System.Drawing.Size(132, 22);
             this.txtnumFinal.TabIndex = 1;
@@ -77,7 +77,7 @@
             // btnCalcular
             // 
             this.btnCalcular.Location = new System.Drawing.Point(360, 60);
-            this.btnCalcular.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCalcular.Margin = new System.Windows.Forms.Padding(4);
             this.btnCalcular.Name = "btnCalcular";
             this.btnCalcular.Size = new System.Drawing.Size(100, 28);
             this.btnCalcular.TabIndex = 4;
@@ -89,8 +89,8 @@
             // 
             this.lstResultados.FormattingEnabled = true;
             this.lstResultados.ItemHeight = 16;
-            this.lstResultados.Location = new System.Drawing.Point(33, 137);
-            this.lstResultados.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lstResultados.Location = new System.Drawing.Point(32, 137);
+            this.lstResultados.Margin = new System.Windows.Forms.Padding(4);
             this.lstResultados.Name = "lstResultados";
             this.lstResultados.Size = new System.Drawing.Size(307, 436);
             this.lstResultados.TabIndex = 5;
@@ -108,7 +108,7 @@
             // btnLIMPAR
             // 
             this.btnLIMPAR.Location = new System.Drawing.Point(360, 545);
-            this.btnLIMPAR.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnLIMPAR.Margin = new System.Windows.Forms.Padding(4);
             this.btnLIMPAR.Name = "btnLIMPAR";
             this.btnLIMPAR.Size = new System.Drawing.Size(100, 28);
             this.btnLIMPAR.TabIndex = 7;
@@ -129,7 +129,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtnumFinal);
             this.Controls.Add(this.txtnumInicial);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
